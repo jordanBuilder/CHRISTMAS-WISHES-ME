@@ -10,8 +10,8 @@ VUE SUR DESKTOP EN CHOISISSANT UNE CHANSON
 
 
 VUE SUR MOBILE
-![CHRISTMAS_WISHES_CHOOSE_SONG_MOBILE](https://github.com/user-attachments/assets/3a6af198-97ee-4cb7-8af1-3b05a813211f)
+![CHRISTMAS_WISHES_MOBILE](https://github.com/user-attachments/assets/b179df07-a699-4f72-bd92-7bdc8c7ee626)
 
-VUE SUR MOBILE EN CHOISISSANT UNE IMAGE
+VUE SUR MOBILE EN CHOISISSANT UNE CHANSON
+![CHRISTMAS_WISHES_CHOOSE_SONG_MOBILE](https://github.com/user-attachments/assets/ca078ce7-b850-4340-83a5-32a1e8dc6eb7)
 
-![CHRISTMAS_WISHES_CHOOSE_SONG_MOBILE](https://github.com/user-attachments/assets/87f26f8a-133d-4fde-8730-87bf36248374)
