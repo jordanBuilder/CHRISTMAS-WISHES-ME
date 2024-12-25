@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "JetBrains Mono", serif;
+  background-image: url("./public/images/christmas-background.jpg");
+  transition: background-image 0.3s ease;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navDiv {
+  position: absolute;
+  top: 0;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+nav {
+  padding: 15px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.navDiv nav ul {
+  display: flex;
+}
+.navDiv nav ul li {
+  list-style: none;
+  padding: 8px;
+}
+.navDiv nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.content-stuff {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.center-message {
+  font-size: 45px;
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.songs-div {
+  position: absolute;
+  bottom: 85px;
+  right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.songs-div .fa-solid {
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+  position: relative;
+  text-align: end;
+  bottom: 0px;
+}
+
+.songs-tooltip {
+  visibility: hidden;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 5px 0px;
+  border-radius: 6px;
+  position: relative;
+  white-space: nowrap;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+}
+.songs-tooltip p {
+  padding: 7px;
+  border-bottom: 1px solid black;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.songs-tooltip p:hover {
+  background-color: rgb(179, 239, 179);
+}
+
+.playing{
+  background-color: rgb(179, 239, 179);
+}
+
+.appear{
+  visibility: visible;
+}
+
+
+
+/* Extra small devices (mobiles) */
+@media (max-width: 576px) {
+  .center-message{
+    font-size: 30px;
+    width: 60%;
+  }
+}
+@media (max-width: 370px) {
+  .center-message{
+    font-size: 25px;
+    width: 80%;
+  }
+}
+@media (min-width: 270px) {
+  .center-message{
+    font-size: 18px;
+    width: 90%;
+  }
+}
+
+/* Small devices (tablettes) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Styles spécifiques pour les tablettes */
+}
+
+/* Medium devices (petits ordinateurs) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Styles pour les ordinateurs portables */
+}
+
+/* Large devices (grands écrans) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* Styles pour les grands écrans */
+}
+
+/* Extra large devices (grands écrans haute résolution) */
+@media (min-width: 1201px) {
+  /* Styles pour les très grands écrans */
+}
