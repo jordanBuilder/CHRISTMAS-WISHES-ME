@@ -94,6 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
       musicIndex = index;
       changeMusic(musicIndex);
       song.classList.add("playing");
+      songsToolTip.classList.remove("appear");
     });
   });
 })
