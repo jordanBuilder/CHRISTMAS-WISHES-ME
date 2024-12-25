@@ -108,8 +108,15 @@ a{
   bottom: 0px;
 }
 
+.songs-div:hover .songs-tooltip{
+  display:flex;
+  flex-direction: column;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
 .songs-tooltip {
-  visibility: hidden;
+  display: none;
   background-color: white;
   color: black;
   text-align: center;
@@ -136,11 +143,9 @@ a{
   background-color: rgb(179, 239, 179);
 }
 
-.appear{
-  visibility: visible;
-}
 
 
+/*RESPONSIVE SETTINGS SECTION*/
 
 /* Extra small devices (mobiles) */
 @media (max-width: 576px) {
@@ -149,9 +154,24 @@ a{
     width: 60%;
   }
 }
+@media (min-width: 370px) {
+  .center-message{
+    font-size: 20px;
+    width: 80%;
+  }
+}
+
+
 @media (max-width: 370px) {
   .center-message{
     font-size: 20px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 270px) {
+  .center-message{
+    font-size: 15px;
     width: 80%;
   }
 }
@@ -171,13 +191,10 @@ a{
     width: 80%;
   } 
 }
-
-/* Large devices (grands écrans) */
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* Styles pour les grands écrans */
+@media (min-width: 1000px) {
+ .center-message{
+    font-size: 40px;
+    width: 50%;
+  } 
 }
 
-/* Extra large devices (grands écrans haute résolution) */
-@media (min-width: 1201px) {
-  /* Styles pour les très grands écrans */
-}

@@ -88,13 +88,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const songFour = document.querySelector(".song4");
 
   const songsGroup = [songOne, songTwo, songThree, songFour];
-  for (let j = 0; j < songsGroup.length; j++) {
-    songsGroup[j].addEventListener("click", () => {
-      musicIndex = j;
+  songsGroup.forEach((song, index) => {
+    song.addEventListener("click", () => {
+      songsGroup.forEach((item) => item.classList.remove("playing"));
+      musicIndex = index;
       changeMusic(musicIndex);
-      songsGroup[j].classList.toggle("playing");
-      songsToolTip.classList.remove("appear");
-    });    
-  }
+      song.classList.add("playing");
+    });
+  });
 })
 
