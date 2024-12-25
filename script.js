@@ -5,7 +5,7 @@ const songIcon = document.querySelector(".fa-music");
 
 
 const text =
-  "LE COMITE DE CLASSE AINSI QUE CHAQUE MEMBRE DE LA GLSI-A VOUS SOUHAITE CHALEUREUSEMENT DE BELLES FETES DE FIN D'ANNEE 🎉🎉✌";
+  "NOUS SOUHAITONS UN JOYEUX NOEL AINSI QUE DE BELLES FETES DE FIN D'ANNEE A LA COMMUNAUTE DEV DU TOGO 🎉🎉✌";
 
 const music = new Audio();
 
@@ -15,28 +15,24 @@ const songs = [
     displayName: "O Come All Ye Faithful",
     cover: "./public/images/songOne_bg.jpg",
     artist: "Boney M",
-    text: "Réunissons-nous avec foi et amour pour célébrer la joie des fêtes !",
   },
   {
     path: "./public/songs/The First Noel - Boney M (with Lyrics).mp3",
     displayName: "The First Noel",
     cover: "./public/images/songTwo_bg.jpg",
     artist: "BONE M",
-    text: "Que cette saison vous apporte la lumière et la paix du tout premier Noël !",
   },
   {
     path: "./public/songs/Boney M. - Joy to the World (Official Audio).mp3",
     displayName: "Joy To The World",
     cover: "./public/images/songThree_bg.jpg",
     artist: "Boney M",
-    text: "Apportons la joie au monde entier et partageons l'esprit de cette merveilleuse période de l'année !",
   },
   {
     path: "./public/songs/Mariah Carey - O Holy Night (Official Audio).mp3",
     displayName: "O Holy Night",
     cover: "./public/images/songFour_bg.jpg",
     artist: "Boney M",
-    text: "En cette nuit sacrée, que vos cœurs soient remplis de gratitude et de magie festive !",
   },
 ];
 
