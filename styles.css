@@ -151,25 +151,25 @@ a{
 }
 @media (max-width: 370px) {
   .center-message{
-    font-size: 25px;
+    font-size: 20px;
     width: 80%;
-  }
-}
-@media (min-width: 270px) {
-  .center-message{
-    font-size: 18px;
-    width: 90%;
   }
 }
 
 /* Small devices (tablettes) */
-@media (min-width: 577px) and (max-width: 768px) {
-  /* Styles spécifiques pour les tablettes */
+@media (min-width: 577px) and (max-width: 850px) {
+   .center-message{
+    font-size: 30px;
+    width: 80%;
+  } 
 }
 
 /* Medium devices (petits ordinateurs) */
-@media (min-width: 769px) and (max-width: 992px) {
-  /* Styles pour les ordinateurs portables */
+@media (min-width: 851px) and (max-width: 1000px) {
+ .center-message{
+    font-size: 40px;
+    width: 80%;
+  } 
 }
 
 /* Large devices (grands écrans) */
